@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.ball   {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.loading .one {
+    animation-delay: 0.1s;
+}
+
+.loading .two {
+    animation-delay: 0.2s;
+}
+
+.loading .three {
+    animation-delay: 0.3s;
+}
+
+.loading .four {
+    animation-delay: 0.4s;
+}
+
+.one {
+    animation: loader1 0.8s ease infinite;
+}
+
+@keyframes loader1 {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.two {
+    animation: loader2 0.8s ease infinite;
+}
+
+@keyframes loader2 {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.three {
+    animation: loader3 0.8s ease infinite;
+}
+
+@keyframes loader3 {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.four {
+    animation: loader4 0.8s ease infinite;
+}
+
+@keyframes loader4 {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        width: 35px;
+        height: 35px;
+    }
+}
