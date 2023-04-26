@@ -97,3 +97,72 @@ body {
         height: 35px;
     }
 }
+
+@media (max-width: 575px) {
+    .ball   {
+        margin: 15px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    @keyframes loader1 {
+        0% {
+            width: 30px;
+            height: 30px;
+        }
+    
+        50% {
+            width: 15px;
+            height: 15px;
+        }
+    }
+    
+    .two {
+        animation: loader2 0.8s ease infinite;
+    }
+    
+    @keyframes loader2 {
+        0% {
+            width: 30px;
+            height: 30px;
+        }
+    
+        50% {
+            width: 15px;
+            height:15px;
+        }
+    }
+    
+    .three {
+        animation: loader3 0.8s ease infinite;
+    }
+    
+    @keyframes loader3 {
+        0% {
+            width: 30px;
+            height: 30px;
+        }
+    
+        50% {
+            width: 15px;
+            height: 15px;
+        }
+    }
+    
+    .four {
+        animation: loader4 0.8s ease infinite;
+    }
+    
+    @keyframes loader4 {
+        0% {
+            width: 30px;
+            height: 30px;
+        }
+    
+        50% {
+            width: 15px;
+            height: 15px;
+        }
+    }
+    }
